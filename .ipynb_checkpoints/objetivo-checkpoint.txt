@@ -1,0 +1,24 @@
+Exemplo de Cenário de Negócio e Aplicação do Teste t de uma Amostra
+Título Sugerido para o Projeto:
+Análise do Valor Médio de Itens Vendidos: Atingimos o Benchmark de Profitabilidade?
+
+1. Contexto de Negócio e Problema:
+Contexto: "Para aprimorar a estratégia de vendas e garantir a sustentabilidade financeira, a equipe de gestão de produtos da empresa de e-commerce X definiu uma meta de que o valor médio por item vendido (linha de pedido) deveria ser de pelo menos £10.00 (dez libras esterlinas) para garantir uma margem de lucro saudável, considerando os custos de aquisição e logística. Precisamos validar se as vendas atuais estão alinhadas com essa meta."
+Problema: "Com base nos dados históricos de transações, precisamos determinar se o valor médio dos itens vendidos está estatisticamente acima ou abaixo do benchmark de £10.00. Uma análise estatística rigorosa é necessária para evitar conclusões precipitadas baseadas apenas na média amostral."
+2. Objetivo do Projeto:
+"Aplicar um Teste t de uma amostra para avaliar se o valor total médio por item vendido (Quantity * UnitPrice) na base de dados de transações está estatisticamente de acordo com, ou acima do, benchmark de £10.00."
+3. Metodologia e Abordagem Analítica:
+3.1. Definição das Hipóteses Estatísticas:
+Benchmark: £10.00
+Hipótese Nula (H 
+0
+​
+ ): O valor médio por item vendido é menor ou igual a £10.00 (μ≤10).
+Hipótese Alternativa (H 
+1
+​
+ ): O valor médio por item vendido é maior que £10.00 (μ>10).
+(Justificativa: Teste unilateral à direita, pois estamos interessados em saber se o valor médio supera o benchmark de lucratividade.)
+Nível de Significância (α): 0.05 (5%).
+3.2. Escolha do Teste Estatístico:
+"O Teste t de uma amostra é adequado, pois estamos comparando a média de uma única amostra (Valor Total do Item na Fatura) com um valor populacional hipotético (£10.00). A variável TotalPrice_LineItem será contínua e, com um volume grande de transações, as suposições do teste t serão robustas."
