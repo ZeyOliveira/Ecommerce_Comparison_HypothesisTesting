@@ -6,6 +6,8 @@ Este projeto de Ciência de Dados explora o comportamento de compra em uma plata
 
 Demonstra habilidades em manipulação de dados, análise estatística e comunicação de insights acionáveis para stakeholders.
 
+**Link para o Dataset no Kaggle:** https://www.kaggle.com/datasets/carrie1/ecommerce-data/data
+
 ## Problema de Negócio & Questão de Pesquisa
 
 Uma empresa de e-commerce busca otimizar suas estratégias de marketing e vendas em diferentes mercados. Surge a questão:
