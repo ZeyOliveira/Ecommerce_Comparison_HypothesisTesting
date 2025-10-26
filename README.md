@@ -11,7 +11,7 @@ Demonstra habilidades em manipulação de dados, análise estatística e comunic
 Uma empresa de e-commerce busca otimizar suas estratégias de marketing e vendas em diferentes mercados. Surge a questão:
 *   `Existe uma diferença estatisticamente significativa no valor médio total por item de linha entre clientes do Reino Unido e da Alemanha?`
 
-## 🛠️ Metodologia & Tecnologias Utilizadas
+## Metodologia & Tecnologias Utilizadas
 
 *   **Linguagem de Programação:** Python
 *   **Bibliotecas:**
@@ -29,7 +29,7 @@ Uma empresa de e-commerce busca otimizar suas estratégias de marketing e vendas
 *   **Visualização:** Gráficos para EDA e apresentação de resultados.
 *   **Ambiente:** Jupyter Notebook (com VS Code para desenvolvimento).
 
-## 💡 Principais Descobertas e Implicações
+## Principais Descobertas e Implicações
 
 A análise revelou que, embora o **teste t de Student e Welch** tenha indicado uma **diferença estatisticamente significativa** no valor médio por item entre os dois países (p-value < 0.05), o **tamanho do efeito (Cohen's d) calculado foi praticamente insignificante (d ≈ 0.02)**.
 
@@ -39,13 +39,13 @@ A análise revelou que, embora o **teste t de Student e Welch** tenha indicado u
 
 Este resultado sublinha a importância de complementar a significância estatística com a análise do tamanho do efeito para evitar conclusões precipitadas e garantir que as decisões de negócio sejam fundamentadas em evidências com impacto real.
 
-## 🔗 Análise Detalhada
+## Análise Detalhada
 
 Para uma compreensão completa da metodologia, exploração de dados, testes estatísticos aplicados e a interpretação aprofundada dos resultados e recomendações para stakeholders, acesse o notebook principal do projeto:
 
 *   [**`01_eda.ipynb`**](https://github.com/ZeyOliveira/Ecommerce_Comparison_HypothesisTesting/blob/main/notebook/01_eda.ipynb)
 
-## 🚀 Como Rodar o Projeto
+## Como Rodar o Projeto
 
 1.  **Clone o Repositório:**
     ```bash
@@ -66,7 +66,7 @@ Para uma compreensão completa da metodologia, exploração de dados, testes est
     *   Abra o arquivo `01_eda.ipynb` no VS Code ou Jupyter Lab/Notebook.
     *   Execute todas as células para reproduzir a análise.
 
-## ✉️ Contato
+## Contato
 
 Conecte-se comigo! Estou sempre aberto a discussões sobre dados, projetos e oportunidades na área de TI.
 
